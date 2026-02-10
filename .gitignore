@@ -1,0 +1,39 @@
+# User-specific
+.vscode/
+.idea/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Datasets & Large Files
+dataset-original/
+dataset-labeled/
+datasetV2/
+datasetLabeledV2/
+dataset_v2_final/
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Models & Checkpoints
+*.pth
+*.pt
+*.onnx
+models_frcnn/
+models_frcnn_v2/
+models_yolo/
+runs/
+output/
+
+# OS specific
+.DS_Store
+Thumbs.db

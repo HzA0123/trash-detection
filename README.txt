@@ -1,0 +1,1 @@
+The datasets have been zipped for simplicity. If using this dataset, please give a citation of the repository at github.com/garythung/trashnet. Please refer to the repository for more details about the files.

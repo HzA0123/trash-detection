@@ -1,0 +1,12 @@
+path: "D:/penelitian/yolo/datasetLabeledV2"
+train: "images/train"
+val: "images/val"
+
+nc: 6
+names:
+  - cardboard
+  - glass
+  - metal
+  - paper
+  - plastic
+  - trash

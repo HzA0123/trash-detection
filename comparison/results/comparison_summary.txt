@@ -1,0 +1,31 @@
+=== FINAL MODEL COMPARISON ===
+Dataset: D:\penelitian\yolo\datasetLabeledV2\images\val
+
+1. OVERALL PERFORMANCE (Accuracy)
+   Metric      | Faster R-CNN (V1) | YOLOv8m (V2)
+   ----------- | ----------------- | ------------
+   mAP@50      | 0.9269            | 0.9320
+   Recall      | 0.9787            | 0.8812
+   F1-Score    | 0.9521            | 0.9059
+
+2. PER-CLASS ANALYSIS (mAP@50 for FRCNN, mAP@50-95 for YOLO*)
+   *Note: YOLO API provides mAP50-95 per class easily. Comparison is indicative.
+   Class        | FRCNN (mAP@50)  | YOLO (mAP@50-95)
+   ------------ | --------------- | ---------------
+   cardboard    | 0.9683          | 0.9423
+   glass        | 0.8701          | 0.9103
+   metal        | 0.8681          | 0.9518
+   paper        | 0.9747          | 0.9237
+   plastic      | 0.8473          | 0.8905
+   trash        | 0.9778          | 0.9736
+
+3. SPEED PERFORMANCE (Inference Time)
+   Metric           | Faster R-CNN      | YOLOv8m
+   ---------------- | ----------------- | ------------
+   Avg Time (Image) | 212.02 ms        | 33.76 ms
+   FPS              | 4.72 FPS         | 29.62 FPS
+   Speedup Factor   | 1x (Baseline)     | 6.3x Faster
+
+4. Conclusion
+   - Accuracy: Faster R-CNN is better (Higher F1).
+   - Speed: YOLOv8m is significantly faster.
