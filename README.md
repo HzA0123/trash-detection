@@ -103,4 +103,4 @@ python comparison/compare_single.py
 ```
 
 ---
-*Created by Hafid for Undergraduate Thesis Research (2025).*
+*Created by Hafid for Undergraduate Research (2025).*
